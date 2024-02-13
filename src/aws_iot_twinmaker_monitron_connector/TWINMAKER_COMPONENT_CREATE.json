@@ -1,0 +1,26 @@
+{
+    "workspaceId": "<YOUR_WORKSPACE_NAME>",
+    "isSingleton": false,
+    "componentTypeId": "com.example.monitron.data",
+    "description": "Connector for Monitron data via Athena and S3",
+    "functions": {
+      "dataReader": {
+        "implementedBy": {
+          "lambda": {
+            "arn": "arn:aws:lambda:<YOUR_REGION>:<YOUR_ACCOUNT_NUMBER>:function:TWINMAKER_DATA_READER"
+          },
+          "isNative": false
+        },
+        "isInherited": false
+      },
+      "schemaInitializer": {
+        "implementedBy": {
+          "lambda": {
+            "arn": "arn:aws:lambda:<YOUR_REGION>:<YOUR_ACCOUNT_NUMBER>:function:TWINMAKER_SCHEMA_INITIALIZATION"
+          },
+          "isNative": false
+        },
+        "isInherited": false
+      }
+    }
+  }

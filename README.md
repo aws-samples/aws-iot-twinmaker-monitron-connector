@@ -1,5 +1,3 @@
-## My Project
-
 # AWS-iot-twinmaker-monitron-connector
 
 ** Describe AWS-iot-twinmaker-monitron-connector here **
