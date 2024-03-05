@@ -31,7 +31,7 @@
                 "athena:ListTableMetadata"
             ],
             "Resource": [
-                "*"
+                "arn:aws:athena:*:MyAWSAcctId:workgroup/MyAthenaWorkGroup",
             ]
         }
     ]

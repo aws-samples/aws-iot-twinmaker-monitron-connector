@@ -159,7 +159,7 @@ class AthenaReader:
                 state = response['QueryExecution']['Status']['State']
                 if state == 'SUCCEEDED':
                     return True
-            time.sleep(2)
+            ## time.sleep(2)
         return False
 
     def _results_athena_query(self, query_id):

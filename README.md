@@ -2,6 +2,8 @@
 
 ** Describe AWS-iot-twinmaker-monitron-connector here **
 
+This repo is realy to an ongoing creation of an IoT blog Build Predictive Digital Twins with Amazon Monitron, AWS IoT TwinMaker and Amazon Bedrock. Once the blog is published, the link of the blog will be updated here.
+
 TWINMAKER_SCHEMA_INITIALIZATION.py provides sample code for the Lambda function used to query the schema of the datalake. This will allow AWS IoT TwinMaker to identify the different types of data available in the data source.
 
 - Function name: `TWINMAKER_SCHEMA_INITIALIZATION`
