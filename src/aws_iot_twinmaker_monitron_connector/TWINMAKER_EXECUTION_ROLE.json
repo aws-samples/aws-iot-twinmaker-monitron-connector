@@ -5,8 +5,8 @@
             "Effect": "Allow",
             "Action": "lambda:InvokeFunction",
             "Resource": [
-                "arn:aws:lambda:[REGION]:[ACCOUNTNUMBER]:function:TWINMAKER_DATA_READER",
-                "arn:aws:lambda:[REGION]:[ACCOUNTNUMBER]:function:TWINMAKER_SCHEMA_INITIALIZATION"
+                "arn:aws:lambda:<AWS_REGION>:<AWS_ACCOUNT_NUMBER>:function:TWINMAKER_DATA_READER",
+                "arn:aws:lambda:<AWS_REGION>:<AWS_ACCOUNT_NUMBER>:function:TWINMAKER_SCHEMA_INITIALIZATION"
             ]
         }
     ]
